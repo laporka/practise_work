@@ -1,0 +1,85 @@
+git status
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+-----------------------------------------------------------
+git branch
+
+branch1
+* main
+-----------------------------------------------------------
+git log
+
+commit df294c98edba682dd6f28cf5b0aa8d4bf8b6958a (HEAD -> main)
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:23:53 2025 +0300
+
+    added result.txt
+
+commit 57dc3125b7b2b296f8267d08792e2da52c8ba314 (origin/main, origin/HEAD)
+Author: laporka <125121347+laporka@users.noreply.github.com>
+Date:   Fri May 23 19:21:24 2025 +0300
+
+    Create new_page.html
+
+commit de22d4f7b754f38ca60b5d48bdd3878884c2555c
+Merge: 8caec67 e08fd29
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:19:50 2025 +0300
+
+    solve merge conflict
+
+commit 8caec675ff578bce0c34ff825be4c939ce6fbe36
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:16:22 2025 +0300
+
+    added p in 13 line
+
+commit a03d5c0fe3852b22a61f6430d0cb6edf3028d969
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:15:33 2025 +0300
+
+    added ol list
+
+commit e08fd29834b0e63e3b1da7afeb9f4e8807ecfc98 (origin/branch1, branch1)
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:12:39 2025 +0300
+
+    added ul list
+
+commit 11cd102bb4b5561a99c3587dbe6e377b4a49a999
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:11:35 2025 +0300
+
+    added new p
+
+commit 3abf7bfe320438d4715715b5ee927079ca134072
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:10:47 2025 +0300
+
+    change text in p
+
+commit 987146f7b67923b028d7aa5052d670596e32824b
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:09:45 2025 +0300
+
+    added index.html
+
+commit d798066a435401e99119050a81d4b178ad7395d6
+Author: laporka <125121347+laporka@users.noreply.github.com>
+Date:   Fri May 23 19:07:52 2025 +0300
+
+    Initial commit
+-----------------------------------------------------------
+git log --merges
+
+commit de22d4f7b754f38ca60b5d48bdd3878884c2555c
+Merge: 8caec67 e08fd29
+Author: laporka <kns198006@gmail.com>
+Date:   Fri May 23 19:19:50 2025 +0300
+
+    solve merge conflict
+-----------------------------------------------------------
